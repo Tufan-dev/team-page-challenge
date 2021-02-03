@@ -1,95 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
-
-    <link rel="icon" href="devchallenges.png" />
-
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="https://devchallenges.io/"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
-      rel="stylesheet"
-    />
-
-    <title>Devchallenges</title>
-
-    <style>
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-
-      ul {
-        padding-left: 24px;
-      }
-
-      li {
-        margin-bottom: 8px;
-      }
-
-      .welcome {
-        max-width: 800px;
-        margin: 0 auto;
-      }
-
-      .welcome-text {
-        margin-top: 30vh;
-        font-weight: 500;
-      }
-
-      .welcome-text p {
-        font-size: 1rem;
-        font-weight: 400;
-      }
-
-      .welcome-text h1 {
-        font-size: 1.5rem;
-      }
-
-      .welcome-text a {
-        color: #f7542e;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="welcome">
-      <div class="welcome-text">
-        <h1>
-          Welcome to
-          <a href="https://devchallenges.io/" target="_blank"
-            >devchallenges.io</a
-          >
-        </h1>
-
-        <p>
-          If you have any questions, don't hesitate to ask on Discord. Here are
-          7 general steps to complete the challenge:
-        </p>
-      </div>
-
-      <ul>
-        <li><b>Step 1:</b> Create a new repository on github</li>
-        <li><b>Step 2:</b> Copy resources, README.md to your repository</li>
-        <li>
-          <b>Step 3:</b> Login to Figma to checkout font, color, spacing,..
-        </li>
-        <li><b>Step 4:</b> Complete all user stories</li>
-        <li><b>Step 5:</b> Update README.md</li>
-        <li><b>Step 6:</b> Deploy your app and submit your solution</li>
-        <li>
-          <b>Step 7:</b> Share your solution on Discord, Twitter and other
-          platforms to ask for feedback
-        </li>
-      </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My team page</title>
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@200;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins:wght@200;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Grid-Box covers whole page-->
+  <div class="Grid-box">
+    <div class="Main-Header">
+      <p>The creative crew</p>
     </div>
-  </body>
+    <div class="Sub-Header">
+      <p>who we are</p>
+      <div class="Team-description">
+        <p>We are team of creatively diverse. driven. innovative individuals working in various locations from the world.</p>
+      </div>
+    </div>   
+    <div class="employee-1">
+      <img src="img/photo1.png" alt="Bill Mahoney">
+      <p id="Product Owner" class="Job-description">Product Owner</p>
+      <p class="Name">Bill Mahoney</p>
+    </div>
+    <div class="employee-2">
+      <img src="img/photo2.png" alt="Saba Cabrera">
+      <p class="Name">Saba Cabrera</p>
+      <p id="Art Director" class="Job-description">Art Director</p>
+    </div>
+    <div class="employee-3">
+      <img src="img/photo3.png" alt="Saba Cabrera">
+      <p class="Name">Shae Le</p>
+      <p id="Tech Lead" class="Job-description">Tech Lead</p>
+    </div>
+    <div class="employee-4">
+      <img src="img/photo4.png" alt="Skylah Lu">
+      <p class="Name">Skylah Lu</p>
+      <p id="UX Designer" class="Job-description"> UX Designer</p>
+    </div>
+    <div class="employee-5">
+      <img src="img/photo5.png" alt="Griff Richards">
+      <p class="Name">Griff Richards</p>
+      <p id="Developer" class="Job-description">Developer</p>
+    </div>
+    <div class="employee-6">
+      <img src="img/photo6.png" alt="Stan John">
+      <p class="Name">Stan John</p>
+      <p id="Developer2" class="Job-description">Developer</p>
+    </div>
+    <div class="footer">
+      <footer>Tufan-Dev @ DevChallenges.io</footer>
+    </div>
+  </div>
+</body>
 </html>

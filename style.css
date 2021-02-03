@@ -1,0 +1,435 @@
+/*--- Remove all default stylings ---*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*--- Own-Styling ---*/
+
+.Main-Header {
+  width: 278px;
+  height: 47px;
+  grid-area: Main-Header;
+}
+
+.Main-Header p {
+  font-family: "PT Serif", serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 47px;
+  letter-spacing: -0.045em;
+  color: #000000;
+}
+
+.Sub-Header {
+  width: 117px;
+  height: 27px;
+  grid-area: Sub-Header;
+}
+
+.Sub-Header p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.Team-description {
+  grid-area: Team-Description;
+  margin-top: 10px;
+  width: 439px;
+  height: 87px;
+}
+
+.Team-description p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.Name {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.Job-description {
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #000000;
+  transform: rotate(90deg);
+  transform-origin: left;
+  margin-top: -8px;
+}
+
+.employee-1 {
+  display: grid;
+  width: 264px;
+  height: 383px;
+  grid-area: employee-1;
+  grid-template-columns: 248px 16px;
+  grid-template-rows: auto;
+}
+
+.employee-1 img {
+  width: 230px;
+  height: 341px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.employee-1 .Name {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.employee-1 .Job-description {
+  width: 102px;
+  height: 16px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.employee-2 {
+  display: grid;
+  width: 264px;
+  height: 383px;
+  grid-area: employee-2;
+  grid-template-columns: 248px 16px;
+  grid-template-rows: auto;
+}
+
+.employee-2 img {
+  width: 238px;
+  height: 341px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.employee-2 .Name {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.employee-2 .Job-description {
+  width: 102px;
+  height: 16px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.employee-3 {
+  display: grid;
+  width: 264px;
+  height: 383px;
+  grid-area: employee-3;
+  grid-template-columns: 248px 16px;
+  grid-template-rows: auto;
+}
+
+.employee-3 img {
+  width: 238px;
+  height: 341px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.employee-3 .Name {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.employee-3 .Job-description {
+  width: 102px;
+  height: 16px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.employee-4 {
+  display: grid;
+  width: 264px;
+  height: 383px;
+  grid-area: employee-4;
+  grid-template-columns: 248px 16px;
+  grid-template-rows: auto;
+}
+
+.employee-4 img {
+  width: 238px;
+  height: 341px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.employee-4 .Name {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.employee-4 .Job-description {
+  width: 102px;
+  height: 16px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.employee-5 {
+  display: grid;
+  width: 264px;
+  height: 383px;
+  grid-area: employee-5;
+  grid-template-columns: 248px 16px;
+  grid-template-rows: auto;
+}
+
+.employee-5 img {
+  width: 238px;
+  height: 341px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.employee-5 .Name {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.employee-5 .Job-description {
+  width: 102px;
+  height: 16px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.employee-6 {
+  display: grid;
+  width: 264px;
+  height: 383px;
+  grid-area: employee-6;
+  grid-template-columns: 248px 16px;
+  grid-template-rows: auto;
+}
+
+.employee-6 img {
+  width: 238px;
+  height: 341px;
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.employee-6 .Name {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+.employee-6 .Job-description {
+  width: 102px;
+  height: 16px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+}
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  color: #a9a9a9;
+}
+
+.Grid-box {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: 240px 320px 160px 160px 320px 240px;
+  grid-template-rows: 110px 127px 96px 102px 298px 132px 102px 298px 80px 109px 40px;
+  grid-template-areas:
+    ".  . . . . ."
+    ".  Main-Header . Sub-Header  Sub-Header  ."
+    ".  . . . .  ."
+    ".  employee-1  . . employee-3  ."
+    ".  employee-1  employee-2 employee-2 employee-3  ."
+    ".  . employee-2  employee-2 . ."
+    ".  employee-4  . . employee-6  ."
+    ".  employee-4  employee-5 employee-5 employee-6  ."
+    ".  . employee-5  employee-5 . ."
+    ".  . . . . ."
+    "footer   footer  footer  footer  footer  footer";
+}
