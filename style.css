@@ -184,6 +184,8 @@ table {
 }
 
 .Job-description {
+  width: 102px;
+  height: 16px;
   font-family: "PT Serif", serif;
   font-weight: 400;
   font-size: 12px;
@@ -221,8 +223,6 @@ table {
 }
 
 .employee-1 .Job-description {
-  width: 102px;
-  height: 16px;
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 1;
@@ -255,8 +255,6 @@ table {
 }
 
 .employee-2 .Job-description {
-  width: 102px;
-  height: 16px;
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 1;
@@ -289,8 +287,6 @@ table {
 }
 
 .employee-3 .Job-description {
-  width: 102px;
-  height: 16px;
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 1;
@@ -323,8 +319,6 @@ table {
 }
 
 .employee-4 .Job-description {
-  width: 102px;
-  height: 16px;
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 1;
@@ -357,8 +351,6 @@ table {
 }
 
 .employee-5 .Job-description {
-  width: 102px;
-  height: 16px;
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 1;
@@ -391,8 +383,6 @@ table {
 }
 
 .employee-6 .Job-description {
-  width: 102px;
-  height: 16px;
   grid-column-start: 2;
   grid-column-end: 2;
   grid-row-start: 1;
@@ -432,4 +422,136 @@ footer {
     ".  . employee-5  employee-5 . ."
     ".  . . . . ."
     "footer   footer  footer  footer  footer  footer";
+}
+
+/*--- Responsive ---*/
+
+@media screen and (max-width: 375px) {
+  .Name {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .Team-description {
+    width: 333px;
+  }
+  .Team-description p {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .Job-description {
+    width: 130px;
+    height: 11px;
+    font-size: 10px;
+    line-height: 13px;
+    margin-top: -5px;
+  }
+
+  .employee-1 {
+    margin-left: 7px;
+    display: grid;
+    width: 156px;
+    height: 237px;
+    grid-area: employee-1;
+    grid-template-columns: 145px 11px;
+    grid-template-rows: auto;
+  }
+
+  .employee-1 img {
+    width: 138px;
+    height: 209px;
+  }
+
+  .employee-2 {
+    margin-top: 40px;
+    display: grid;
+    width: 156px;
+    height: 237px;
+    grid-area: employee-2;
+    grid-template-columns: 145px 11px;
+    grid-template-rows: auto;
+  }
+
+  .employee-2 img {
+    width: 138px;
+    height: 209px;
+  }
+
+  .employee-3 {
+    margin-left: 7px;
+    display: grid;
+    width: 156px;
+    height: 237px;
+    grid-area: employee-3;
+    grid-template-columns: 145px 11px;
+    grid-template-rows: auto;
+  }
+
+  .employee-3 img {
+    width: 138px;
+    height: 209px;
+  }
+
+  .employee-4 {
+    margin-top: 40px;
+    display: grid;
+    width: 156px;
+    height: 237px;
+    grid-area: employee-4;
+    grid-template-columns: 145px 11px;
+    grid-template-rows: auto;
+  }
+
+  .employee-4 img {
+    width: 138px;
+    height: 209px;
+  }
+
+  .employee-5 {
+    margin-left: 7px;
+    display: grid;
+    width: 156px;
+    height: 237px;
+    grid-area: employee-5;
+    grid-template-columns: 145px 11px;
+    grid-template-rows: auto;
+  }
+
+  .employee-5 img {
+    width: 138px;
+    height: 209px;
+  }
+
+  .employee-6 {
+    margin-top: 40px;
+    display: grid;
+    width: 156px;
+    height: 237px;
+    grid-area: employee-6;
+    grid-template-columns: 145px 11px;
+    grid-template-rows: auto;
+  }
+
+  .employee-6 img {
+    width: 138px;
+    height: 209px;
+  }
+
+  .Grid-box {
+    grid-template-columns: 12px 172px 172px 19px;
+    grid-template-rows: 71px 47px 38px 126px 38px 237px 64px 237px 64px 237px 131px 40px;
+    grid-template-areas:
+      ".  . . ."
+      ". Main-Header  Main-Header ."
+      ".  . . ."
+      ".  Sub-Header  Sub-Header  ."
+      ".  . . ."
+      ".  employee-1  employee-2  ."
+      ".  . . ."
+      ".  employee-3  employee-4  ."
+      ".  . . ."
+      ".  employee-5  employee-6  ."
+      ".  . . ."
+      "footer footer  footer  footer";
+  }
 }
